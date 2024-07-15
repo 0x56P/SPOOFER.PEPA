@@ -114,8 +114,6 @@ namespace KeyAuth
             KeyAuthApp.license(key.Text);
             if (KeyAuthApp.response.success)
             {
-                SoundPlayer simpleSound = new SoundPlayer(@"C:\Windows\Media\Ring02.wav");
-                simpleSound.Play();
                 Process.Start("https://discord.gg/hAbksNC2");
                 Main main = new Main();
                 main.Show();
